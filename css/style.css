@@ -72,6 +72,15 @@ h3 {
   z-index: -1;
 }
 
+.alert > strong {
+  color: red;
+  background-color: transparent;
+}
+.alert-warning {
+  --bs-alert-color: #664d03;
+  --bs-alert-bg: #fff3cdb5;
+  --bs-alert-border-color: #ffecb500;
+}
 /* Media Queries */
 
 @media (max-width: 500px) {

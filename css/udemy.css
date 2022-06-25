@@ -125,6 +125,16 @@
   background-color: rgba(0, 0, 255, 0.694);
 }
 
+.alert > strong {
+  color: red;
+  background-color: transparent;
+}
+.alert-warning {
+  --bs-alert-color: #664d03;
+  --bs-alert-bg: #fff3cdb5;
+  --bs-alert-border-color: #ffecb500;
+}
+
 /* Media Queries */
 
 @media (max-width: 500px) {
