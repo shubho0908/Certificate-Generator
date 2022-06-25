@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Udemy Certificate Generator</title>
+    <link rel="stylesheet" href="css/udemy.css">
+    <link rel="icon" type="image/x-icon" href="img/udemy.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/7db56b18988b0db9d84b3bfd3d4f9b6b?family=DistrictProW01-Medium"
+        rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/ceae0b0ba6ed654c11bebaa577938012?family=Arno+Pro+Display" rel="stylesheet"
+        type="text/css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" id="form">
+            <div class="first-name">
+                <label for="fname"> First Name: <br>
+                    <input type="text" name="fname" id="fname">
+                </label>
+            </div>
+            <div class="last-name">
+                <label for="lname"> Last Name: <br>
+                    <input type="text" name="lname" id="lname">
+                </label>
+            </div>
+            <div class="date">
+                <label for="date"> Date of Completion: <br>
+                    <input type="text" name="date" id="date" placeholder="Example: Jan. 25, 2000">
+                </label>
+            </div>
+            <div class="length">
+                <label for="length"> Length of Course: <br>
+                    <input type="number" name="length" id="length">
+                </label>
+            </div>
+            <div class="course">
+                <label for="course"> Course Name: <br>
+                    <input type="text" name="course" id="course">
+                </label>
+            </div>
+            <div class="teacher">
+                <label for="teacher"> Instructor's Name: <br>
+                    <input type="text" name="teacher" id="teacher">
+                </label>
+            </div>
+            <div class="btn">
+                <button id="Generate" type="submit">Generate</button>
+            </div>
+        </form>
+
+        <div id="certificate">
+            <!-- <div class="logo">
+                <img id="udemy-logo" src="img/udemy-logo.png" alt="">
+                <div class="right-side">
+                    <div class="c-no">Certificate no: </div>
+                    <div class="c-url">Certificate url: ude.my/</div>
+                    <div class="ref-no"></div>
+                </div>
+            </div>
+            <div class="content">
+                <h3>CERTIFICATE OF COMPLETION</h3>
+                <h1 id="course-name">JavaScript - Basics to Advanced</h1>
+                <h4>Instructors &nbsp;&nbsp;<b>Bhuvan Bam</b></h4>
+            </div>
+            <div class="user">
+                <h1 id="name">Shubhojeet Bera</h1>
+                <h4>Date &nbsp;<b>April 29, 20222</b></h4>
+                <h4>Length &nbsp;<b>4 total hours</b></h4>
+            </div> -->
+        </div>
+        <button id="download">Download PDF</button>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="js/udemy.js"></script>
+</body>
+
+</html>

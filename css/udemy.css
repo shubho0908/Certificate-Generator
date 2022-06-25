@@ -1,0 +1,175 @@
+/* Certificate Designing */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#course-name {
+  font-family: " Arno Pro Display ";
+  /* src: url("../font/ArnoPro-BoldDisplay.otf"); */
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 12px;
+  color: rgb(28, 28, 28);
+}
+
+#certificate {
+  display: none;
+  padding: 60px;
+  height: 720px;
+  width: 1280px;
+  /* background-color: rgba(200, 194, 194, 0.073); */
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #dbdbdbc3;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.right-side {
+  font-size: 14px;
+  font-family: "DistrictProW01-Medium", sans-serif;
+  color: rgba(107, 107, 107, 0.879);
+  text-align: right;
+  padding-left: 620px;
+}
+.right-side > div {
+  margin-top: 10px;
+}
+#udemy-logo {
+  height: 120px;
+}
+
+.content {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+
+.content > h4,
+.user > h4 {
+  font-family: "DistrictProW01-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 18px;
+}
+
+.content > h3 {
+  color: rgba(100, 100, 100, 0.899);
+  letter-spacing: 1.5px;
+}
+
+.content > h1 {
+  margin: 0;
+}
+
+.content > h4 > b,
+.user > h4 > b {
+  font-family: "Poppins", sans-serif;
+  color: rgb(28, 28, 28);
+  font-size: 20px;
+}
+
+.user > h1 {
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(28, 28, 28);
+  font-weight: bolder;
+}
+
+.user {
+  margin-top: 95px;
+}
+
+.user > h4 {
+  margin: 0;
+}
+
+#download {
+  margin-top: 20px;
+  display: none;
+}
+
+.btn {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#Generate,
+#download {
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
+  width: 250px;
+  background-color: rgba(0, 0, 255, 0.496);
+  height: 40px;
+  transition: all 0.3s;
+}
+
+#Generate:hover,
+#download:hover {
+  background-color: rgba(0, 0, 255, 0.694);
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+  #form {
+    font-size: 14px;
+    padding: 22px;
+  }
+  input {
+    font-size: 12px;
+  }
+  #download {
+    font-size: 40px;
+    height: 165px;
+  }
+}
+
+/* Here Comes the form's designing */
+
+#form {
+  padding: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.16) 0px 30px 60px -30px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.first-name,
+.last-name,
+.date,
+.length,
+.course,
+.teacher {
+  margin-top: 30px;
+}
+
+label {
+  margin-top: 25px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  width: 300px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.563);
+}
