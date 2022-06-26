@@ -64,7 +64,7 @@ generate.addEventListener("click", (e) => {
 <div class="content">
   <h3>CERTIFICATE OF COMPLETION</h3>
   <h1 id="course-name">${course_name}</h1>
-  <h4>${instruct} &nbsp; <b>${instructor}</b></h4>
+  <h4>${instruct}&nbsp;<b>${instructor}</b></h4>
 </div>
 <div class="user">
   <h1 id="name">${first_name} ${last_name}</h1>

@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-content {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 740px;
+  width: inherit;
+  border: 6px solid rgb(177, 177, 177);
+}
+
+#certificate {
+  display: none;
+  width: 1180px;
+  height: inherit;
+  background-color: white;
+}
+.left-side {
+  width: 25%;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side > img {
+  height: 740px;
+}
+.outer {
+  border: 20px solid white;
+}
+.light-br {
+  border: 3px solid rgba(177, 177, 177, 0.746);
+  padding: 4px;
+}
+.dark-br {
+  border: 15px solid rgba(135, 135, 135, 0.81);
+  padding: 8px;
+}
+.right-content {
+  margin-top: 90px;
+  margin-left: 20px;
+  width: 62%;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #737373;
+  font-weight: 300;
+}
+
+#logo {
+  height: 24px;
+  margin-left: 9px;
+}
+#sign {
+  height: 67px;
+}
+
+.congrats,
+.course-name,
+.para,
+.authority,
+.certificate-id {
+  margin-left: 40px;
+}
+
+.congrats > h3 {
+  font-size: 23px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.congrats > h2 {
+  font-weight: 300;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+.course-name {
+  color: #6e6f6e;
+  margin-top: 45px;
+}
+.course-name > h1 {
+  margin: 0;
+}
+.completion {
+  display: flex;
+  align-items: center;
+  color: #707071;
+}
+.completion > h3 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.para > h2 {
+  margin-top: 30px;
+  color: #707071;
+  font-size: 17px;
+  font-weight: 400;
+}
+.authority {
+  margin-top: 15px;
+  font-size: 12.6px;
+
+  font-weight: 300;
+  display: flex;
+  color: #707071;
+  align-items: flex-end;
+}
+
+.vl {
+  border: 1px solid #d0d0d1;
+  height: 70px;
+}
+
+.part-1 > h3,
+.part-2 > h3 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 500;
+}
+.certificate-id {
+  margin-top: 140px;
+  font-size: 13px;
+}
+
+#clength {
+  margin-left: 11px;
+}
+
+/* Form's Designing */
+
+#form {
+  padding: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.16) 0px 30px 60px -30px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.first-name,
+.last-name,
+.date,
+.length,
+.course,
+.teacher {
+  margin-top: 30px;
+}
+
+label {
+  margin-top: 25px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  width: 300px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.563);
+}
+#Generate,
+#download {
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
+  width: 250px;
+  background-color: rgba(0, 0, 255, 0.496);
+  height: 50px;
+  transition: all 0.3s;
+}
+.btn {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #dbdbdbc3;
+}
+#download {
+  display: none;
+}
+
+#Generate:hover,
+#download:hover {
+  background-color: rgba(0, 0, 255, 0.694);
+}
+/* Media Queries */
+
+@media (max-width: 500px) {
+  #form {
+    font-size: 14px;
+    padding: 22px;
+  }
+  input {
+    font-size: 12px;
+  }
+  #download {
+    font-size: 40px;
+    height: 165px;
+  }
+}

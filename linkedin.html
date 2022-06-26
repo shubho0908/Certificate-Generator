@@ -6,10 +6,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinkedIn Learning Certificate Generator</title>
+    <link rel="stylesheet" href="css/linkedin.css">
+    <link rel="icon" type="image/x-icon" href="img/linkedin.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <h1>COMING SOON!</h1>
+    <div class="container">
+        <form action="#" id="form">
+            <div class="first-name">
+                <label for="fname"> First Name: <br>
+                    <input type="text" name="fname" id="fname">
+                </label>
+            </div>
+            <div class="last-name">
+                <label for="lname"> Last Name: <br>
+                    <input type="text" name="lname" id="lname">
+                </label>
+            </div>
+            <div class="date">
+                <label for="date"> Date of Completion: <br>
+                    <input type="text" name="date" id="date" placeholder="Example: Jan 25, 2000">
+                </label>
+            </div>
+            <div class="length">
+                <label for="length"> Length of Course: <br>
+                    <input type="text" name="length" id="length" placeholder="Example: 1 hour 30 minutes">
+                </label>
+            </div>
+            <div class="course">
+                <label for="course"> Course Name: <br>
+                    <input type="text" name="course" id="course">
+                </label>
+            </div>
+            <div class="btn">
+                <button id="Generate" type="submit">Generate</button>
+            </div>
+        </form>
+
+        <div id="certificate">
+            <!-- <div class="outer">
+                <div class="light-br">
+                    <div class="dark-br">
+                        <div class="main-content">
+                            <div class="left-side">
+                                <img src="img/LinkedIn left-2.png" alt="">
+                            </div>
+                            <div class="right-content">
+                                <div class="logo">
+                                    <img id="logo" src="img/Learning.png" alt="">
+                                </div>
+                                <div class="congrats">
+                                    <h2>Certificate of Completion</h2>
+                                    <h3>Congratulations, Shubhojeet Bera</h3>
+                                </div>
+                                <div class="course-name">
+                                    <h1>MySQL Installation and Certification</h1>
+                                    <div class="completion">
+                                        <h3>Course completed on Sep 25, 2000 </h3>
+                                        <li>1 hour 41 minutes</li>
+                                    </div>
+                                </div>
+                                <div class="para">
+                                    <h2>By continuing to learn, you have expanded your perspective, sharpened your
+                                        skills, and made yourself even more in demand.</h2>
+                                </div>
+                                <div class="authority">
+                                    <div class="part-1">
+                                        <img id="sign" src="img/Sign2.JPG" alt="">
+                                        <h3>VP, Learning Content at LinkedIn</h3>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div
+                                        class="vl"></div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div
+                                        class="part-2">
+                                        <h3>LinkedIn Learning</h3>
+                                        <h3>1000 W Maude Ave</h3>
+                                        <h3>Sunnyvale, CA 94085</h3>
+                                    </div>
+                                </div>
+                                <div class="certificate-id">Certificate Id: AU3IZ5a5rPeUmO_IE8R80L3ac5sN</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <button id="download">Download PDF</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="js/linkedin.js"></script>
+
+
 </body>
 
 </html>

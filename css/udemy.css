@@ -6,7 +6,7 @@
 }
 
 #course-name {
-  font-family: " Arno Pro Display ";
+  font-family: " Arno Pro Display ", "Times New Roman", Times, serif;
   /* src: url("../font/ArnoPro-BoldDisplay.otf"); */
   font-weight: bold;
   font-size: 80px;
@@ -116,7 +116,7 @@
   font-family: "Montserrat", sans-serif;
   width: 250px;
   background-color: rgba(0, 0, 255, 0.496);
-  height: 40px;
+  height: 50px;
   transition: all 0.3s;
 }
 
