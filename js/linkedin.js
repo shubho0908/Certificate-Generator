@@ -90,7 +90,7 @@ let download = document.getElementById("download");
 download.addEventListener("click", () => {
   var opt = {
     margin: 1,
-    filename: "myfile.pdf",
+    filename: "LinkedIn-certificate.pdf",
     image: { type: "jpeg", quality: 0.98 },
     html2canvas: { scale: 2 },
     jsPDF: { unit: "px", format: "a2", orientation: "landscape" },
