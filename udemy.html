@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="img/udemy.png">
 
     <!-- Font -->
+<!--    <link rel="stylesheet" href="/font/district-pro-light.otf">-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -23,8 +24,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link href="//db.onlinewebfonts.com/c/ceae0b0ba6ed654c11bebaa577938012?family=Arno+Pro+Display" rel="stylesheet"
-        type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/ceae0b0ba6ed654c11bebaa577938012?family=Arno+Pro+Display" rel="stylesheet"/>
+    <link href="//db.onlinewebfonts.com/c/7037d4397da904f0588781c3daaaa002?family=Studio+Sans+Light" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/a63741eeb89a2c633f764ba074bbb68a?family=Studio+Sans" rel="stylesheet" type="text/css"/>
 
 </head>
 
@@ -48,9 +50,14 @@
             </div>
             <div class="length">
                 <label for="length"> Length of Course: <br>
-                    <input type="number" name="length" id="length">
+                    <input type="number" name="length" id="length" class="customLength">
+                    <select name="unit" id="unit" >
+                        <option value="mins">Mins</option>
+                        <option value="hours">Hours</option>
+                    </select>
                 </label>
             </div>
+
             <div class="course">
                 <label for="course"> Course Name: <br>
                     <input type="text" name="course" id="course">
@@ -93,7 +100,7 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    <script src="js/udemy.js"></script>
+    <script src="../Certificate-Generator_New/js/udemy.js"></script>
 </body>
 
 </html>
