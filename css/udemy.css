@@ -1,196 +1,169 @@
 /* Certificate Designing */
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #course-name {
-    font-family: " Arno Pro Display ", "Times New Roman", Times, serif;
-    /* src: url("../font/ArnoPro-BoldDisplay.otf"); */
-    font-weight: bold;
-    font-size: 80px;
-    margin-top: 12px;
-    color: rgb(28, 28, 28);
+  font-family: " Arno Pro Display ", "Times New Roman", Times, serif;
+  /* src: url("../font/ArnoPro-BoldDisplay.otf"); */
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 12px;
+  color: rgb(28, 28, 28);
 }
 
 #certificate {
-    display: none;
-    padding: 65px 75px;
-    height: 799px;
-    width: 1099px;
-    font-family: "DistrictProW01-Medium", sans-serif;
-    /* background-color: rgba(200, 194, 194, 0.073); */
+  display: none;
+  flex-direction: column;
+  padding: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  height: fit-content;
+  width: 1280px;
+  /* background-color: rgba(200, 194, 194, 0.073); */
 }
 
 .container {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #dbdbdbc3;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #dbdbdbc3;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    width: auto;
+  display: flex;
+  align-items: center;
+  width: auto;
 }
 
 .right-side {
-    font-size: 14px;
-    font-family: "DistrictProW01-Medium", sans-serif;
-    color: rgba(107, 107, 107, 0.879);
-    text-align: right;
-    padding-left: 443px;
+  font-size: 14px;
+  font-family: "DistrictProW01-Medium", sans-serif;
+  color: rgba(107, 107, 107, 0.879);
+  text-align: right;
+  padding-left: 620px;
 }
-
 .right-side > div {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
 #udemy-logo {
-    height: 120px;
+  height: 120px;
 }
 
 .content {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    margin-top: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin-top: 70px;
 }
 
 .content > h4,
 .user > h4 {
-    font-family: "DistrictProW01-Medium", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    margin-top: 18px;
+  font-family: "DistrictProW01-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 18px;
 }
 
 .content > h3 {
-    color: rgba(100, 100, 100, 0.899);
-    letter-spacing: 1.5px;
-    font-family: "StudioSans", "DistrictProW01-Medium", sans-serif;
+  color: rgba(100, 100, 100, 0.899);
+  letter-spacing: 1.5px;
 }
 
 .content > h1 {
-    margin: 0;
-    
+  margin: 0;
 }
 
 .content > h4 > b,
 .user > h4 > b {
-    font-family: "Poppins", sans-serif;
-    color: rgb(28, 28, 28);
-    font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(28, 28, 28);
+  font-size: 20px;
 }
-
-#instructor {
-    color: #1c1d1f;
-    /*font-family: "district-pro-light","DistrictProW01-Medium", sans-serif;*/
-    letter-spacing: -0.5px;
-    font-weight: lighter;
-}
-
-#unit {
-  padding: 4px;
-  font-size: 15px;
-  border: none;
-  text-align: center;
-  font-weight: 600;
-  color: #1c1d1f;
-  font-family: "DistrictProW01-Medium", sans-serif;
-}
-
-.customLength{
-  width: 230px;
-}
-
 
 .user > h1 {
-    font-size: 42px;
-    font-family: "Poppins", sans-serif;
-    color: rgb(28, 28, 28);
-    font-weight: bolder;
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(28, 28, 28);
+  font-weight: bolder;
 }
 
 .user {
-    margin-top: 235px;
+  margin-top: 170px;
 }
 
 .user > h4 {
-    margin: 0;
+  margin: 0;
 }
 
 #download {
-    margin-top: 20px;
-    display: none;
+  margin-top: 20px;
+  display: none;
 }
 
 .btn {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 #Generate,
 #download {
-    cursor: pointer;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-family: "Montserrat", sans-serif;
-    width: 250px;
-    background-color: rgba(0, 0, 255, 0.496);
-    height: 50px;
-    transition: all 0.3s;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
+  width: 250px;
+  background-color: rgba(0, 0, 255, 0.496);
+  height: 50px;
+  transition: all 0.3s;
 }
 
 #Generate:hover,
 #download:hover {
-    background-color: rgba(0, 0, 255, 0.694);
+  background-color: rgba(0, 0, 255, 0.694);
 }
 
 .alert > strong {
-    color: red;
-    background-color: transparent;
+  color: red;
+  background-color: transparent;
 }
-
 .alert-warning {
-    --bs-alert-color: #664d03;
-    --bs-alert-bg: #fff3cdb5;
-    --bs-alert-border-color: #ffecb500;
+  --bs-alert-color: #664d03;
+  --bs-alert-bg: #fff3cdb5;
+  --bs-alert-border-color: #ffecb500;
 }
 
 /* Media Queries */
 
 @media (max-width: 500px) {
-    #form {
-        font-size: 14px;
-        padding: 22px;
-    }
-    
-    input {
-        font-size: 12px;
-    }
-    
-    #download {
-        font-size: 40px;
-        height: 165px;
-    }
+  #form {
+    font-size: 14px;
+    padding: 22px;
+  }
+  input {
+    font-size: 12px;
+  }
+  #download {
+    font-size: 40px;
+    height: 165px;
+  }
 }
 
 /* Here Comes the form's designing */
 
 #form {
-    padding: 50px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  padding: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.16) 0px 30px 60px -30px;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 10px;
-    font-size: 20px;
-    background-color: white;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: white;
 }
 
 .first-name,
@@ -199,17 +172,26 @@
 .length,
 .course,
 .teacher {
-    margin-top: 30px;
+  margin-top: 30px;
+}
+
+#course {
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.563);
+  outline: none;
 }
 
 label {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 input {
-    background-color: transparent;
-    border: none;
-    font-size: 18px;
-    width: 300px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.563);
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  width: 300px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.563);
 }
